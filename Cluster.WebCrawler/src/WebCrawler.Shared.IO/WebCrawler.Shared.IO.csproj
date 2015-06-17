@@ -58,8 +58,10 @@
     <Compile Include="DownloadCoordinator.cs" />
     <Compile Include="DownloadWorker.cs" />
     <Compile Include="HttpClientFactory.cs" />
+    <Compile Include="IndexWorker.cs" />
     <Compile Include="Messages\CheckDocuments.cs" />
     <Compile Include="Messages\ProcessDocuments.cs" />
+    <Compile Include="PageMetaDataToDBActor.cs" />
     <Compile Include="ParseWorker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

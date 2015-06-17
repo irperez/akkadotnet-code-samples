@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCrawler.CrawlService", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCrawler.Shared.IO", "src\WebCrawler.Shared.IO\WebCrawler.Shared.IO.csproj", "{085D6A95-BBC2-44D4-AA4F-3E1F91E658DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLib", "src\CoreLib\CoreLib.csproj", "{1A614225-34CB-4800-B24D-D1A28A79EE4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLib.DataLayer", "src\CoreLib.DataLayer\CoreLib.DataLayer.csproj", "{A940F204-E2A0-4737-88FC-4D84B82C390B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{085D6A95-BBC2-44D4-AA4F-3E1F91E658DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{085D6A95-BBC2-44D4-AA4F-3E1F91E658DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{085D6A95-BBC2-44D4-AA4F-3E1F91E658DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A614225-34CB-4800-B24D-D1A28A79EE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A614225-34CB-4800-B24D-D1A28A79EE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A614225-34CB-4800-B24D-D1A28A79EE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A614225-34CB-4800-B24D-D1A28A79EE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A940F204-E2A0-4737-88FC-4D84B82C390B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A940F204-E2A0-4737-88FC-4D84B82C390B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A940F204-E2A0-4737-88FC-4D84B82C390B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A940F204-E2A0-4737-88FC-4D84B82C390B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
